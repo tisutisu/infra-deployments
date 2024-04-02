@@ -54,7 +54,7 @@ setup-pac-app() (
 
         local retry=0
         while ! oc get -n $PAC_NAMESPACE route pipelines-as-code-controller >/dev/null 2>&1 ; do
-                if [ "$retry" -eq "20" ]; then
+                if [ "$retry" -eq "40" ]; then
                         echo "[ERROR] Failed to wait for Pac route to be available" >&2
                         exit 1
                 fi
