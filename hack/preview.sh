@@ -365,5 +365,5 @@ while true; do
 done
 
 # Configure Pipelines as Code and required credentials
-$ROOT/hack/build/setup-pac-integration.sh
+#$ROOT/hack/build/setup-pac-integration.sh
 
