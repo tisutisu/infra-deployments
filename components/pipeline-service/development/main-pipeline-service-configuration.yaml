@@ -1700,13 +1700,13 @@ spec:
                   "callerEncoder": ""
                 }
               }
-        config-defaults:
-          data:
-            default-container-resource-requirements: |
-              default:
-                requests:
-                  memory: "256Mi"
-                  cpu: "100m"
+        # config-defaults:
+        #   data:
+        #     default-container-resource-requirements: |
+        #       default:
+        #         requests:
+        #           memory: "256Mi"
+        #           cpu: "100m"
             default-timeout-minutes: "120"
       deployments:
         tekton-operator-proxy-webhook:
